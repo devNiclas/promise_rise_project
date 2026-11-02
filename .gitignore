@@ -1,0 +1,22 @@
+# Python & Virtual Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Hugging Face local cache & downloaded weights
+.cache/
+huggingface/
+*.safetensors
+*.bin
+
+# Operativsystem Files
+.DS_Store
+Thumbs.db
+
+ 
+ #outputs and original promise file
+ outputs/
+
+ promise_raw/

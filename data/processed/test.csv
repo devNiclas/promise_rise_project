@@ -1,0 +1,553 @@
+ProjectID,RequirementText,_class_
+74,"The following start-up/synchronizing time limits shall apply to the Black Start testing units: Hydroelectric generating units or combustion gas turbines - within 30 minutes of the initiation of the Black Start process, Industrial gas turbines - within 60 minutes of the initiation of the Black Start process, Hot, steam-driven turbines, within 2.5 hours of the initiation of the Black Start process. If the certified Black Start facility is in another reliability coordinator area or is comprised of an unspecified technology then specific start time limits are negotiated. These times include ICU start-up, normal start-up of the unit, plus switching time for the actual synchronizing of the unit. ",O
+2,The product shall be available for use 24 hours per day 365 days  per year,A
+68,The driver shall be able to select Train Data Entry on the DMI. ,F
+76,Visual Input:  The conferencing feature requires a high resolution video input device.  The device needs to be configured in accordance to manufacturer recommended settings and should be in operation before enabling the conferencing feature.,US
+77,Ability for the data center admin to do near-time replication to alternate site.,F
+46,The system shall provide a uniform look and feel between all the web pages.,LF
+65,"A GUI capable of browsing the information managed by the Framework, similar to that of the Windows Explorer SHOULD be available to the user. The GUI MUST also be capable of allowing the user to specify relationships between disparate Entities as he see fit. ",FT
+4,The Disputes application shall interface with the Statement Database. The Statement Database provides the transaction details to the Disputes System. All transaction details must be obtained from the Statement Database,O
+45,The system shall authenticate users at the beginning each session.,F
+57,The system shall be implemented in the Java 1.3 programming language.,SE
+13,The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.,LF
+6,Maintenance releases will be offered to customers once a year.  The releases shall take no longer than 5 minutes for 80% of the customer base to install.,MN
+49,The System must never include in the search result list any record which the user does not have the right to access.,F
+6,The customer shall be able to easily integrate new building maps with the product throughout the product\92s lifecycle.  Integration of new maps with the product shall be possible with little to no support from product support staff.,MN
+70,The DUAP Input Services shall be able to collect roadway traffic data from the Road Commission of Macomb County (RCMC) system using the RCMC system interface.,F
+49,The system should support selective encryption of the stored data;,F
+59,Redundant Communication - There shall be a redundant communication path (serial RS-232c or equivalent) between the MCCC and CPCC to provide for remote reboot in the event of a networking or computing failure.,PO
+68,The roll away/reverse movement intervention shall be indicated on the DMI. ,F
+57,The user shall be able to collapse displayed nodes. The HATS-GUI shall change the displayed graph by removing all descendants of the selected displayed nodes (thus changing the internal nodes to non-expandable leaf nodes).,F
+86,The ELSS must provide facilities to transmit deletions to previously transmitted data. ,LF
+76,News Feature:  The administrator has the capability to post current news on this section as needed.,US
+73,"Track the movement of lapsed quantities in an area, including: Which permit and well obtained the lapsed quantities, Where the lapsed quantities are located, Why the quantities are lapsed (i.e. expired, cancelled, retired), What MFL zone the lapsed quantities are in. ",F
+49,"Making text resizable by the user: Text should be able to be resized by the user, using functions provided by the user agent or other appropriate means i.e. see ISO 9241-171.",US
+68,To prevent unauthorised use of the function permission shall be obtained from the RBC if the train is operating under the control of the RBC.,F
+66,"Data on the server should be protected from power loss but data in transit from server to requester could be lost. Given that these data will also remain on the watershed site system, rather than expend resources to prevent this loss, such failures will be monitored and the uploading process will be repeated. ",SE
+70,The DUAP System shall cache (both raw and derived) traffic data. ,F
+73,"Need tool to be able to estimate water use (now being done in SAS). To do this estimate, you need to be able to query the water use data with various variables, such as time period, use types, withdrawal type (groundwater or surfacewater), and geographic areas. Once the initial query is complete, you need to be able to refine the resulting data set. An example is when you select active permits in a time period. If a permit expired inside of the time period, the refine tool would help determine if that permit would or would not be a part of the result set, perhaps by determining at what point in the time line it expired.",F
+49,The system should ensure secure transmission of data over the network and utilize SSL and 2-way digital signatures;,F
+63,"The application should look and feel consistent in the web and standalone operating environments, therefore it will conform to standard .NET standalone and web application conventions with necessary accommodations for the deployment environment only where these prove necessary and appropriate. ",US
+84,"Pre and post conversion actions will be provided for at each level of the migration, e.g. record, WARC, job",O
+48,A secure server will be required to ensure confidentiality of customer’s credit card and other details.,SE
+1,The system shall provide charts for the Activity or Event actual versus assumed time.,F
+56,Intermediate files of cleaned-up ASPERA-3 and MEX OA telemetry shall be generated in the event that cleaned-up telemetry is not provided by ESOC.,F
+32,It must be able to change and update information on the server.,O
+27,The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).,FT
+6,The product will update existing room equipment.,F
+54,"When a user creates a new single player game, they must: Enter their name, Choose an icon from a predetermined list, Set the score limit for winning a hand of Mahjong.",F
+63,"It is assumed that authentication will utilize a single sign-on (SSO) approach and application security will be declaratively managed through database or directory entries, rather than hard-wired into the application. This mechanism may have implications for BRIDGEWare/AASHTOWare generally and will need to be coordinated with the other AASHTO products31. ",SE
+77,Ability for the data center admin to control message size limits for e-mail (inbound and outbound). ,F
+46,The product shall be based on web and has to be run from a web server.,O
+70,The DUAP Output Services shall be able to publish traffic data in the Synchro traffic analysis tool Synchro interface format. ,F
+66,"The Data Management portion of the system shall permit user access from the corporate Intranet and, if a user is authorized for outside access through the corporate firewall, from an Internet connection at the user’s home. ",O
+46,The system shall authenticate user credentials to view the profile.,F
+63,The system shall maximize multi-user concurrency and conflict resolution in the application using standard .NET session and transaction management capabilities.,F
+73,Support consistency in decision-making among various users. ,US
+84,Provide a tool to draw difference graphs between WARC collections,F
+56,The APAF ground data system shall have built-in error handling.,F
+49,The support solution should be accessible to the users both from within the application and also outside the application through a browser interface.,F
+67,The system shall display the most frequently searched items by the user in the profile.,F
+80,"For each genre and format of material, ability to compare the percentage of total circulations, the percentage of the collection, and the percentage of total shelf space that genre/format comprises. Ability to report per library and per system.",SC
+82,Any common standard schema of context specific data classes MUST be agreed upon the pilot partners.,L
+67,The system shall allow user to select the financing option.,F
+63,The administrator shall be able to add custom structure lists.,F
+63,"Changes to calculated results such as Sufficiency Rating or NBI Appraisal Ratings will be prohibited except for secured, privileged users.",F
+72,"Actors should be able to search from any page. If the actor is hierarchically outside of a particular course, each of his or her courses should be searched and results should be grouped by course. If the actor is hierarchically inside of a course, that course should be searched with an option to search all courses.",F
+68,It shall be possible for the trackside to ask a driver for confirmation about the occupancy of the track ahead before sending a Full Supervision movement authority.,F
+49,The system should be implemented using Service Oriented Architecture (SOA) and have a modular design;,F
+62,"Exposure investigation data to be captured must include information related to exposure levels, type of exposure (e.g., intimate, social, household, common conveyance), place of exposure, length of time the entity was exposed, frequency of exposure, and the entity’s proximity to the source of exposure. ",F
+6,The product shall be capable of handling up to 1 000 concurrent requests.  This number will increase to 2 000 by Release 2.  The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.,SC
+82,"A VCD system MUST provide a user interface to the issuing body to provide context specific data for an evidence in a structured form (e.g. web-interface, XML-file-upload). ",F
+78,GOG initialisation Module should be able to read information of the input sources. Options are to use the Universe Model or a provided user sources.,F
+57,"The View/SDT menu item shall provide an interface for viewing, navigating through, and searching SDTs output from the execution of transformation programs.",F
+46,The system shall maintain customer email information as a required part of customer profile.,F
+51,After creation a request still pending waiting to be approved by an administrative level user according to that have this authority.,F
+67,The system shall display the FAQ’s upon request.,F
+82,Any VCD system must have an interface to provide tender-specific data and (in particular the relevant criteria subset) in order to perform the mapping.,L
+65,The Framework Shell SHOULD NOT utilize more than 40 megabytes of RAM.,PE
+87,"As it has already been mentioned, GParted is not a resource hog and will run on almost every computer. Its functions and features are not computationally intensive. It does not require a powerful processor or graphics card, much RAM, or disk space, for both the install and Live version, and the program loads and runs fairly quick. The only real requirement is a CD/DVD drive or a USB port that is working properly.",PE
+45,User authentication and privileges are defined outside the scope of the sytem by the Microsoft Active Directroy Server.,SE
+82,It has to be guaranteed whether the directive is correctly implemented in national procurement law with regard to VCD relevant articles 45-52. ,L
+42,The text and time/date of a note that has been entered is displayed starting with most recent.,F
+68,"Trains equipped for ERTMS/ETCS application level 3 shall be able to run on lines equipped with ERTMS/ETCS application level 3, 2, 1 and 0, trains equipped for ERTMS/ETCS application level 2 shall be able to run on lines equipped with ERTMS/ETCS application level 2, 1 and 0 and trains equipped for ERTMS/ETCS application level 1 shall be able to run on lines equipped with ERTMS/ETCS application level 1 and 0.",F
+82,Time stamping SHOULD be applied in some processes to certify relevant date and time.  ,L
+77,Ability for the data center admin to retrieve quarantined messages.,F
+57,"After issuing the unhide instruction, a user shall be able to issue a rehide instruction that reverses the unhide instruction. All displayed nodes hidden before the most recent unhide instruction shall become hidden.",F
+4,The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.,F
+62,"Clinical specimen data should include information about the specimen source/site from which the specimen was taken, symptom date of onset, and whether the sample is acute or convalescent. ",F
+57,The View/Text menu item shall provide an interface for viewing and searching pretty-printed text.,F
+70,The DUAP Computational Services shall be able to derive pothole location from probe vehicle data. ,F
+70,The system map display shall support pan and zoom capabilities to allow a user to select the area to be displayed. ,F
+63,The system shall provide a configurable tracking mechanism to ensure that a set of screens and data fields have been reviewed and approved during the course of an inspection.,F
+40,The data transaction between client and server must be encrypted using SSL technology.,SE
+49,"Avoiding opening unnecessary windows: Additional windows such as new browser windows or pop-up windows should only be opened if this supports the user’s task. Opening new windows can distract, confuse or impede users for a variety of reasons. They can superimpose the primary window, hiding relevant information. ",US
+82,Additional requirements for cross-border data exchange MUST be analysed and considered. ,L
+68,"The train shall leave Partial Supervision when the trainborne equipment is not operative any longer, when Shunting is selected or when Full Supervision is available. ",F
+63,"The user shall be able to filter and select projects by structure ID, project ID, program, action type, project status, review status, treatment, program year, and project end date. ",F
+86,"Automatically by the ELSS (subject to be overridden by the vessel master): at least on a daily basis not later than 24:00 even when there is no catch data with the proviso that if the vessel is in port, has no fish on board and has submitted a landing declaration, transmission may be suspended subject to prior notification to the Fisheries Monitoring Centre of the flag Member State. Transmission must be resumed when the vessel leaves port.",LF
+71,The System shall provide the capability to support functional and performance tests of system elements without impacting operational product generation.,F
+72,"For this requirement, page refers to any distinct page (e.g., an assignment, a wiki page, a forum post, etc.). When a page is created, the actor in the role of course administrator should be able to toggle whether notifications are turned on. By default, they should be turned on for announcements. If notifications are turned off, actors in the capacity of student should be able to subscribe to notifications. ",F
+62,"Travel history data should include information such as the method of transportation (e.g. bus, plane, boat, car), flight number, departure and arrival dates and times, and the origination and destination locations (city, state, and country). ",F
+62,"Laboratory results must be linked to corresponding specimens/samples including multiple results from one specimen/sample), and subjects when the participating laboratory returns the results. These linkages must unambiguously associate multiple laboratory results to case and contact identifiers. ",F
+75,The format of service requirements is defined. ,F
+55,The C2C shall be implemented in the C/C++ programming language.,PE
+50,The system shall be able to restore 1000 records per second.,PE
+52,"The syntax of control flow commands is to be consistent across the system, whether accessing workstation software or IOC software.",PO
+73,Should allow comparison to adjacent districts GIS layers to permit GIS layer to access adjacent data.,F
+76,"All archived chats, e-mail, file share, and IM Messages are governed by the NJIT E-mail use policy.  The user is encouraged to view the content at the NJIT homepage for detailed use of the policy and restrictions and limitations of the policy.",SE
+70,The DUAP Input Services shall be able to collect roadway traffic data from the Traffic Monitoring System for Highways (TMS/H) using the TMS/H interface. ,F
+49,The system should be designed in manner that operational data is not lost in case of any failure of equipment or communication network;,F
+57,The File/Edit menu item shall provide an interface for starting an editor as an external process. The editor shall be started according to information in the application configuration.,F
+68,The ETCS on-board shall be capable of sending to the trackside train integrity information detected by a system outside ETCS . ,F
+63,"The system shall validate all configuration options to verify proper program operation, including explicit identification of any potentially conflicting program options. ",F
+62,"Food sample data should include information about the lot number, batch number, manufacturer name, shipping invoice, temperature, sample type (e.g., dairy – milk, red meat, spice), and product storage condition.",F
+62,"Systems supporting OM must be able to exchange messages for confirmed, probable and suspect cases, and the other case classifications that are noted in the PHIN message implementation guide, with systems supporting surveillance, early event detection (EED), and other preparedness areas. This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin.",F
+8,The product shall use symbols and words that are naturally understandable by users familiar with websites,US
+25,The campus map shall provide visual clues regarding what areas have prepared audio and therefore may be selected.,LF
+58,Reboot network – The BE shall be able to initiate a reboot of any internal network. ,F
+57,The View/Select Text menu item shall provide an interface for selecting pretty-printed text or text strings associated with SDT displays.,F
+73,"Create layer that includes ""cones of depression"" for the MFL information, which will indicate the area of influence to an MFL. ",F
+78,GOG is built as a standalone java aplication that could be invoked from a command line and deployed as a jar file. ,FT
+82,In stage 4 it MUST be possible to discover the verified electronic address for an identified party.,L
+66,"Relational Database Management System - As the primary data storage mechanism for the corporate standard relational database management system, Microsoft SQL Server will be required to support system functionality. ",L
+49,Navigation components should be placed consistently on the pages or in the framesets in the pages of the application.,US
+61,All employees shall be allowed to use the Daily Reminders.,F
+6,The product shall be translated into foreign languages other than the target market countries\92 languages in future releases.  For each emerging target market  it shall take no more than 5 days to configure the product for that market\92s language.,US
+60,The system must allow a member to do statistics on messages issued and received from/to his system. FUN-04 The system must provide automatic reply to the sender of the request through the use of a standard interface to the Members systems.,F
+73,Calculate water quality trends by geographic area. ,F
+32,Each account must securely store all of its data.,SE
+74,"The owner or operator of any Voluntary Black Start unit that desires a Black Start generating unit status with the CAISO Balancing Authority shall: Demonstrate at least every five years, through simulation or testing, that the unit can perform its intended functions as required by the WECC BCP (if any) and of this testing section. Submit documentation of the test results and analysis to the CAISO, WECC, or NERC upon any request. Submit any past reports for Black Start tests with the CAISO and WECC. o Those Participants who do not currently test their Black Start capability, will be required to test their Black Start capability. Within 24 hours of conducting a Black Start test, all Participants will notify the CAISO RT Dispatcher by phone indicating the success or failure of the test. Within 14 days of performing a Black Start test, all Participants will file a letter with the CAISO regarding the success or failure of the test. ",O
+57,The Application/Save-as menu item shall provide an interface for saving an application and its associated files under a different name.,F
+84,The ARC to WARC migration should be able to run on multiple machines that will be easy to deploy. This may be achieved by using a simple messaging infrastructure. ,F
+63,"Database security will need to be insured for the Pontis data stored in the RDBMS; most likely this will be done by using a specific username/password combination and running as particular database roles for each database connection. This security structure should be similar to the existing security approach in Pontis 4.x. For web clients, care will be taken to insure that connection information is not accessible from application pages (e.g., userid/password embedded in HTML form variables). ",SE
+8,Izogn Administrator must be able to update the category listings on the website within 2 minutes.,PE
+82,The VCD package MUST provide a functionality to add structural VCD package data to the VCD package and VCD system (e.g. log file) during the compilation process. ,F
+2,The product shall retain user preferences in the event of a failure.,FT
+49,"An audit trail is a record of actions taken by either the user or the system triggers. This includes actions taken by users or Administrators, or actions initiated automatically by the system as a result of system parameters.",F
+78,"GOG initialisation module must include information on the instrument model: The selected scanning law, Dead time, Noise models (including detection noise)",F
+45,The system shall allow the initiator to send and receive messages from users.,F
+49,Within-page links should be clearly distinguishable from other links that lead to a different page. EX. Within-page links are shown with dashed rather than solid underlines,US
+80,Management Processes are part of an enterprise-level Library Automation System. ,SC
+68,Isolation of the ETCS trainborne equipment shall disconnect the ETCS trainborne equipment from the vehicle braking system.,F
+71,The System shall provide an automatic failover capability that will re-create a fully functioning configuration from a failed configuration. ,F
+79,"The functionality provided by the Inventory Management System will be critical to the normal operation of the Construction Junction business. As such, the system should perform with consistently and predictably low response times in order not to impact the performance or the timely execution of the various tasks that need to be conducted by the Construction Junction staff. ",PE
+70,The DUAP Computational Services shall be able to infer incident type from probe vehicle data. ,F
+67,The e-store system shall communicate with CRM system to provide support.,MN
+82,The PEPPOL infrastructure MUST have the capability to submit a VCD to a contracting authority or tendering platform. ,L
+67,The customer’s web browser shall never display a customer’s credit card number after retrieving from the database.  It shall always be shown with just the last 4 digits of the credit card number.,SE
+64,The system has an artificial intelligence that the player may play against. The artificial intelligence supports every two player game,F
+45,The system shall allow administrators to define negotiation rules for the organization.,F
+72,"Currently, there is no system that allows actors to receive SMS or email notifications of changes to Moodle pages (such as assignments or announcements). ",F
+70,The tabular information display shall provide a means to select the data to be displayed. ,F
+66,"System operator: Staff at OCIO responsible for maintaining executable code, requiring full access to all aspects of the system. ",L
+62,"Environmental sample data should include information about the collection method, location (geocoded if possible) from which the sample was taken, source (e.g., rain or well for water, radiation release, asbestos, chair or desk in a specified location), nature of the sample (e.g., soil, water, air), quality control data, collection begin and end date and time for air samples, and original volume and volume of concentrate tested for water samples. ",F
+63,"The user shall be able to modify the technical parameters governing the simulation, including the parameters of the improvement model and the simulation rules. ",F
+68,If the onboard fails to contact the RBC when awakening the driver shall be asked to enter the RBC contact details.,F
+73,Know how much water has been permitted and how much has been used based on land use over time. ,F
+58,"Monitor Compute Errors – The BE shall trap, flag and repair inf’s, NaN’s, underflows, overflows and other computation errors. Accumulate computation error statistics and compare against tolerances. Report all out of tolerance conditions. ",F
+89,It is possible to disable all accounts except for the System Administrator account.,F
+58,"Metadata – All internally and externally generated data about the processed time series and spectra including invalid data flags, processes applied, coordinates, etc. ",F
+86,The ELSS must provide the ability to print out the ELSS logbook data (including landing declarations) using an onboard printer. ,LF
+9,The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.,PE
+10,For each shot  the product shall notify the players whether the shot was a hit or miss.,F
+58,"Time Domain Processing – The BE shall be able to apply user selected time domain processes. These processes should be constructed to be chainable (output of any time domain process can be piped to input of any other, including replica of self and Fourier Transform) and repeatable in the chain. No Optional time domain processes have as yet been proposed. ",F
+82,User rights for the VCD system MUST be defined. ,L
+90,The number of digits that can be used for the unique [FILENUMBER] prefix must be 10 or less.,F
+50,The system shall be able to email customer and vendor in less than 1 second.,PE
+78,Determine for epoch data the astrometric parameter (with instrumental and reduction errors): transit times and field angles in each CCD mean transit time and field angle for the transit.Gate activation and signal loss due to window cutoff must be taken into account.,F
+62,"Systems supporting OM should capture or be linked to data regarding the prophylaxis or treatment to cases, exposed individuals, or at risk persons, including the person who ordered the prophylaxis or treatment, and the name, date, type, duration, and dosage of the treatment or prophylaxis given. For specific data requirements regarding the administration of prophylaxis and treatment. ",F
+61,Customer log notes shall store the date and comments regarding any correspondence with a parent.,F
+82,A VCD system MUST provide a user-interface to the economic operator to initiate the creation of a VCD advanced package.,F
+17,The system shall validate the amount is a multiple of $20.,F
+73,"Minimum flows on the upper Peace River - The MFL is met when the MFL s are at or above the established MFL for three consecutive years. Once the MFL has been considered met, if it is followed by two years where the MFL is not met within a rolling ten-year period, then the AFL shall be considered below the MFL. A determination of whether AFL s are meeting the established MFL is made at each one of the established minimums (Bartow, Ft. Meade and Zolfo Springs). ",F
+77,Ability for the agency admin to put discovery search results on legal hold to suspend deletion. ,F
+63,The system shall provide the ability to create any report that is bridge or project based by selecting the relevant “driver” records from a map display. ,F
+76,The initial entry (Welcome Screen 1) has three separate quadrants; each quadrant has a specific function. ,US
+8,System shall let the administrator add/remove categories on the website in under 5 minutes.,PE
+82,The VCD system MUST provide a functionality and an interface that enables contracting authorities to retrieve the attestation from the storage. ,F
+16,The system shall be evoked by typing “pine” into a command or shell prompt.,O
+31,Detailed documentation of the code and SRS will enable easy maintenance of the Flea Market.,MN
+82,The VCD transportation system MUST have an interface to connect to it in order to submit the VCD package to a contracting authority.,F
+68,The train shall be supervised according to train speed data available. ,F
+68,Information shall be shown on the DMI,F
+90,Restart PDFsam application to be the changes applied. ,F
+70,"The weather information browser shall allow a user to query weather-related information using a web browser capable of supporting HTML 4.01, JavaScript (ECMA262 edition 3), and XML 1.0. ",F
+5,The system shall resolve the zipcode for the street address  city  and state if zipcode is unknown.,F
+76,Firewall ports may need to be unblocked on both sides to accommodate file transfers.,F
+66,The System shall operate on Certified and Accredited servers running the current corporate approved versions of operating systems as appropriate. ,O
+9,If the leads score falls within the low average then it will be returned to the supplying vendor,F
+5,Product installations and upgrades shall be handled by the middleware technology team within established launch time frames.,O
+63,"The user shall be able to select a structure by directly typing in the structure ID in GUI, with the display scrolling to that structure. Bridge-level security of the user shall be applied automatically. ",F
+3,Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.,F
+50,The system shall utilize interchangeable plugins.,MN
+58,Software – the software part of the system shall be able to perform without total system restart due to internal failure between array maintenance windows. ,A
+66,The Data Research and Reporting portion of the system shall provide public access to reviewed and approved data sets.  ,O
+58,"Applications – all math/science application software shall take optimal advantage of all language, compiler, and system computational features and resources to reduce run times to the minimum practical level. ",PE
+3,The system shall be built such that it is as secure as possible from malicious interference.,SE
+82,The VCD viewing system MUST display structural VCD package data contained in the VCD package,F
+85,The system shall direct the user to the xxx Page if the user chooses to click the close button without entering any data. ,F
+5,The audit report shall include the number of available recycled parts from the original search results.,F
+49,"The length of a page should be selected so as to support the primary purpose and use of the page. Short pages are generally more appropriate for homepages, navigation pages, or overview pages that need to be read quickly. Longer pages can be more appropriate when users want to read the content without interruptions or when the page needs to match a paper counterpart.",US
+82,Which entity will host the mapping facility? In dependence of the choice of infrastructures (centralised – decentralized) and the organisation that governs the infrastructure and mapping facility it has to be defined who will be responsible to host the mapping facility. An entity that hosts the mapping facility MUST be defined in dependence of the type of infrastructure and the dedicated governing model.,L
+70,The DUAP Input Services shall be able to collect probe vehicle data from truck fleets using the truck fleets’ interfaces. ,F
+73,"Ability for public utilities and internal staff to find existing permits in or near their service area so they can spatially see what water is available, or may become available, when they plan for their future growth and water resources. They will need to view the use type (interested mainly in agricultural and mining), owned acres, and the current permittee s contact information. ",F
+58,Monitor I/O Performance – The BE shall monitor data transfer rates from the Correlator and to the e2e. Accumulate data transfer statistics and compare against tolerances. Report all out of tolerance conditions. ,F
+51,Any administration level or authorised inventory group member can display all pending requests waiting for approval from this level and approve those requests.,F
+77,Ability for the data center admin to restore previous backup without service interruption. ,F
+73,"Identify what lakes are stressed, when they became stressed, and if/when they came off stressed list. ",F
+6,The product shall have an intuitive user interface.,F
+49,The system should support SSL encrypted connections;,F
+84,"To validate that the migration succeeded, arc_warc_verify will use the METADATA included in the newly generated WARC files to match records with their corresponding ARC files",F
+39,The system should require the user to state time when should the doughnut be delivered,F
+55,The GUI shall allow the data about an incident to be modified.,F
+73,"The ability to associate permitted quantities, pumpage quantities, and use code data at the well level. ",F
+7,The System shall meet all applicable accounting standards.  The final version of the System must successfully pass independent audit performed by a certified auditor.,L
+62,"Both the jurisdiction investigating the event and the jurisdiction reporting the cases and associated investigations must be captured. For example, if a person becomes ill during travel in one jurisdiction but is the resident of another, the illness will be reported by the state (jurisdiction) of residence and investigated by the jurisdiction visited. ",F
+49,The system should be developed on Open Standards;,F
+6,Only managers are able to perform search queries for reservations by user.  100% of all search queries for reservations by user shall be from logons of only management logons.,SE
+6,The product shall record meeting entries.,F
+42,A description and time/date of each prescription that has been ordered or given is displayed starting with most recent.,F
+70,The DUAP data elements shall include roadway event information data fields corresponding to the SAE J2354 structure as enumerated in APPENDIX F - SAE J2354 EventInformation Elements. ,F
+21,The online registration system is “self-service style” system that shall initially address the student registration needs.,F
+51,Within the same department: data base can be updated directly without any request.,F
+29,Responses to view information shall take no longer than 5 seconds to appear on the screen.,PE
+51,Web interface should use clear and consistence terminology in such a way that user; with basic experience on internet and office; find the application easy to use.,US
+37,The available server must be reliable and the network connectivity in the supermarket should be proper for smooth flow of all operations and data.,O
+88,"Displays of environmental conditions (temperature, humidity, contact sensors and power switches) shall be updated at least every two seconds.",PE
+15,Changes to revenue and expense formulae must be applied to the RFS system  every year  prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt  after which 2 weeks will be allotted to testing of the budget calculations  to be conducted jointly by the project development team and PCG Finance.,MN
+32,A correct combination of username and password is required for a user to login.,SE
+65,The email is fetched from the POP3 server. ,F
+56,Web-based displays defined by the ASPERA-3 team shall be provided where any available ASPERA-3 data (as opposed to just the most current) can be used for science analysis.,F
+73,Report compliance on a permit (not wells). Crop reports on permits (not wells) (I think this was a requirement to report this data some how at a well level). ,F
+73,Need to establish response rates if it will be on a web page.,PE
+77,"Ability for the agency admin to archive based on policy (i.e. e-mail address, OU, group, organization, etc.) ",F
+68,Track to train transmission shall provide the capability to send different speed profiles for specific train categories. ,F
+83,With all these features complied into one screen it will give the software more flexibility and allows for easy and simple usage. This will appeal to both naïve computer users and experienced computer users with a higher selling market. ,US
+55,TCP/IP shall be used to transmit the DATEX/ASN data.,F
+82,The rule set derived from legal requirements concerning subcontracting and other consortium constellations MUST be defined ,F
+63,The system shall provide the ability to mark a bridge with any of several status values (e.g. inactive/closed) and automatically filter displays to recognize the status value (e.g. to automatically suppress inactive/closed structures). ,F
+32,It must store the most recent copy of information in its application data folder.,F
+56,ASPERA-3 and MEX OA IDFS data and any APAF-generated intermediate files of ASPERA-3 and MEX OA cleaned-up telemetry shall be provided to all ASPERA-3 Co-I’s.,O
+77,Ability for the user to provide List Server option for internal and external publishing of information (report subscriptions).,F
+71,The System shall be capable of retaining Data Products for a configurable period of time not to exceed 96 hours.,F
+86,All deletions must be easily identifiable within the ELSS user interface.,LF
+58,"Lag Sets - The BE shall be able to handle lag sets up to a maximum size of 262,144 values.",F
+71,The System shall be capable of making Data Products available to registered users.,F
+72,"One of the fundamental tasks of the system is to allow actors to upload and manage files on certain pages of the system. These might include assignment submission pages, forum pages, wiki pages, and announcement pages. An actor in the role of course administrator should be able to optionally upload multiple files where he or she finds that such as feature would be useful—such as on a devoted project page. ",F
+66,Online Storage - The system needs to be able to store hundreds of megabytes of data on demand. The potential for needing Gigabytes of data storage capacity is also in the realm of possibilities. Further requirements gathering is needed to get real-world estimates of such data storage needs. ,L
+3,2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.,US
+6,The product shall notify building personnel of equipment transport requests.,F
+45,The system shall allow users to view equipment information.,F
+65,An associate is created as an archive and is linked to this Entity. ,F
+49,"Designing for input device independence: User interfaces should be designed to allow activation of controls by a variety of input devices. The ability to choose between different input devices for activating controls such as links, fields and buttons is important both for users who prefer a certain input mode, mobile users and users with disabilities. In general, device independence can be achieved if the functionality is operable via a keyboard.",US
+71,The System shall be capable of requesting and accepting all xDRs generated by the IDPS. ,F
+70,Access to the DUAP system shall be limited to users authorized by MDOT. ,F
+49,The System must allow only admin-users to set up user profiles and allocate users to groups.,F
+34,The system’s back-end servers shall only be accessible to authenticated administrators.,SE
+67,The system shall provide multi language support.,US
+76,The user is responsible for maintaining the user account. Action must be taken by the user to prevent the user account from being compromised. ,SE
+64,The system shall support two player turn-based gaming,F
+73,Create layer that shows the Developments of Regional Impacts (DRI) and their status. This layer will be plugged into the new model for population projections and water supply demand projections. ,F
+77,Ability for the agency admin to capture all sent and received emails into the organization. ,F
+80,"Fines, charges, waivers, and ecommerce transactions are attached to patron and item records. System tracks fines waived and payments made per library. Financial information can be updated easily. As an example, a staff user can easily query patron accounts with balances greater than X dollars.",SC
+77,Ability for the agency admin to provide RSS Feeds. ,F
+4,The Disputes System must provide the ability to view existing dispute cases.,F
+59,Software Accessibility – all systems and application source code shall be available to or on the systems that execute it.,PO
+73,"Minimum lake levels - The proposed MFL is achieved when the long-term P50 is at or above the MFL and the long-term P10 is at or above the High Minimum Lake Level for five consecutive years. Once in compliance, MFL is not met when the long-term P50 is below the MFL for two or more consecutive years or the long-term P10 is below the High Minimum Lake Levels for two or more consecutive years. ",F
+2,Out of 1000 accesses to the system the system is available 999 times.,A
+57,"When a user selects the Application/Delete menu item, the HATS-GUI shall prompt the user to confirm the deletion operation. If the user confirms, all files in the application directory shall be deleted and the application directory itself shall be deleted. No application is currently selected at the end of this operation.",F
+77,Ability for the user to export contact lists. ,F
+59,A system administrator shall have unrestricted access to all aspects of the system.,SE
+83,"The system we produce will stay within all the legal requirements on our behalf, as our software is only listing links for video streams and video download, and this is not illegal. Our system will not host any videos. ",L
+67,The e-store system shall communicate with export regulation system to validate export regulations.,MN
+77,"Ability for the user to establish rules (auto reply, out of office reply, temporary transfer to another party, move files to inbox folders). ",F
+3,Only authorized users shall have access to students\92 personal information.,SE
+58,Correlator mode changes – the system shall be capable of responding in a loss-less manner to I/O and processing changes arising from Correlator mode changes. ,A
+72,"This statement provides a general sense of system availability. It is not intended to demand the system maintain reliability, or to require the system to be highly available. It should not exclude maintenance windows, or scheduled downtime. It is only intended to convey the expectation that our customers should have access to the system during off-hours as well as business hours. 99% up-time should be considered sufficient to meet this requirement.",F
+57,"When searching for text patterns, search begins at the location of the keyboard cursor and continues left-to-right, top-to-bottom until the end of the text is encountered. When the end of the text is encountered, search will continue from the start of the text until arriving back at the starting location.",F
+67,The system shall display all the available promotions to the user.,F
+80,"The system can generate a report of the value of items (based on data in item record) in the entire collection or a portion. Example: staff can obtain value of all items with status of longoverdue, or value of all dvds in children s collection, or value of entire collection.",SC
+9,The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.,F
+55,The GUI shall allow a user to delete a previously entered lane closure.,F
+52,The telescope and instrument software shall contain built-in test (BIT) facilities to verify Gemini 8m Telescopes system and Gemini 8m Telescopes software performances. ,PO
+3,Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.,F
+50,The system shall be protected by open source firewall called Firestarter. http://www.fs-security.com/,SE
+82,The legal foundation for exchanging validation values SHOULD be given in the home Member States in order to support mutual recognition across Member States. ,L
+46,The system shall allow user to cancel the order.,F
+80,The system shall provide thorough high-level error reporting and feedback and shall allow low-level query-specific feedback for Local and Global System Administrators from the front-end interface.,SC
+82,Contracting authorities approaching the tool have to assess the compatibility of the “mapping template” with their inspection procedures and code of practice. ,L
+82,Legal systems MUST ensure that context specific data and validation values have an equivalent value to the provision of conventional / traditional attestations. (Scope of mutual recognition). ,L
+86,"The ELSS may provide features to facilitate other print requirements including: Generation of hard copies of the Electronic Logbook required when fishing in 3rd country or Regional Fisheries waters, e.g. NAFO, Faroese and Norwegian waters, Generation of a hard copy logsheet or landing declaration to act as a transport or takeover document, Generation of a hard copy for providing regulatory returns for Cod and Hake effort reporting. ",LF
+67,The system shall allow user to select available promotion.,F
+70,The DUAP Input Services shall be able to collect probe vehicle data from the MDOT fleet using the MDOT probe vehicle data interface,F
+10,Once a game is initiated  the product shall display a defensive grid to each player,F
+68,Visual and acoustic warnings to the driver about possible intervention from ETCS shall be given to enable the driver to react and avoid intervention.,F
+59,"Error Message Access – All system error and debug messages shall be categorized in a logical fashion such that message traffic can be filtered as to content, detail, and message rate. Personnel interested in error messages should be able to easily filter the error message stream.",PO
+8,System will allow customers to pay for a streaming movie with a pre-paid card.,F
+8,The same hardware supporting the current website will be used to support the new system.,O
+27,A waiter password used for tablet login must have a bit-strength of at least 64 bits.,SE
+75,Policies identifying the consequences of SLA violation are defined. ,F
+63,The system shall strictly separate transient or volatile batch operation control records – e.g. bridge records to be included in a report – from more static control record – e.g. currently checked-out bridges.,F
+62,"Systems supporting OM must be able to create and send messages for countermeasure administration requests. This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin. ",F
+3,A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.,F
+77,Ability for the agency admin to create generic email accounts/addresses to be accessed by multiple users. ,F
+46,The system shall allow user to select the payment method for order.,F
+58,Time Stamp Adjustment – The BE shall be able to make time stamp adjustments as required by the observational mode and correlator output parameters. This may arise when recirculation is used. ,F
+70,The DUAP System shall collect probe vehicle data. ,F
+74,Adequate transmission capacity shall be available to connect the Black Start facility to the source providing station services to other specified generating stations.,O
+57,There shall be exactly one file describing the lexical specification of inputs associated with an application. It shall have the file extension .spec.,F
+82,Regulations for handling the non-existence of selected evidence requested in a MS MUST be defined and made operational.,L
+72,The system must allow actors to delete recorded clips. ,F
+76,The user is responsible for content uploaded. NJIT policy prohibits the use NJIT facilities/assets for personal use.,SE
+46,The performance shall depend upon hardware components of the client/customer.,PE
+64,The system can be used fully with a mouse ,F
+62,"Systems supporting OM must have the capability to capture data about organizations (e.g., a local health department, a university, a professional association) involved in an OM investigation, including: organization name, location, and contact information. ",F
+62,Configuration management protocols and personnel should be identified to support multiple deployment options. ,F
+73,Need technical documentation for maintainability. ,F
+40,All the passwords that are generated or accepted must be stored in database in an encrypted form.,SE
+46,The system shall notify the user about any changes made to the order.,F
+57,The Configure/File Associations menu item shall provide an interface for associating files in an application. File associations are shown in Table 6.,F
+5,The estimator shall search for available recycled parts using a list of preferred parts suppliers.,F
+71,The NDE Distribution capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period and no more than 4 hours in any consecutive 30 day period. ,A
+58,Fourier Transform Processing – The BE shall be able to perform Fourier Transform the lag set time series. A power-of-two complex-to-complex Fast Fourier Transform with retention of all output positive and negative frequencies will be used. This process must be able to accept as input the output of any of the time domain processes. ,F
+60,The system must be able to establish and keep the dialog with the Members systems despite the various technical environments and technologies used on their sites.,PE
+57,"The HATS-GUI shall allow a user to create an application minimally consisting of a lexical specification file, a grammar file, a user-defined functions file, and application configuration information. The user shall be able to name this application.",F
+70,The DUAP Input Services shall be able to collect probe vehicle data from the VII Proof of Concept (POC) Probe Data Service (PDS) using the X-031 interface. ,F
+82,The contracting authority has to specify a subset of the superset of criteria that is relevant to a specific Call for Tender so that any VCD application can perform the mapping later on ,L
+71,The System shall be capable of adding additional capacity without redesign of it s infrastructure. ,F
+59,"Test Software. - Software shall be provided that allows an authorized user full access to all messaging, monitor, and control traffic throughout the CMCS. This software will provide full system access for testing, debugging, and control while the correlator is off line or under the control of the EVLA M&C system.",PO
+10,The product shall allow a player to initiate a game by selecting another available player from the list of players.,F
+63,The system shall provide user interface for managing application roles. ,F
+14,Each page shall contain a navigation menu which shows the index into which the current page is contained.,LF
+71,The System shall be capable of delivering NDE Data Products to registered user s computer systems. ,F
+73,Follow District programming standards.,F
+89,"Certain pieces of information are required to create new accounts. The following information is required for any new user account: Username, Password, Name, Email Address, Group Membership, User Account Type",F
+16,The system shall have a help system that offers tips and explanation for each screen and each item on the screens upon demand.,US
+72,"First, it should be present in the form of a search box and a “Search” button on the top or bottom of every page. More information on this topic is given in sub-section 3.4.2 below. ",F
+78,"The GOG catalogue module must include information on the reduction model: Instrument effects substraction node bias substraction noises PPE residuals noise, Scientific content extraction noise substraction of close sources second FoV contamination noise backgound substraction.",F
+73,"Report on the history of irrigation water conserving credits, including the balance, how much earned, and how much used, and drought quantities. Know who uses them and who has accumulated them, and be able to report on an individual basis, by a geographic area, or aggregate the data. ",F
+46,The system shall allow user to view detailed sitemap.,F
+70,The DUAP System shall be able to collect road condition data.,F
+63,The user shall be able to enter a WHERE clause of the SQL query in the Find and the Filter window and run a query against the bridges in the database. The query will be verified by the application and SQL errors will be reported to the user for correction. This capability shall be an application privilege. Bridge-level security of the user shall be applied automatically. ,F
+58,"Recovery Report – internal system component (process, processor, network) recovery action result. ",F
+52,Requests of subsystems for status information must be answered within 5 sec and be possible in maintenance level operation.,PO
+51,Inter departments: request must be approved by a DA group member and faculty group member unless it came from a higher level group.,F
+61,The date of the reminder shall be selected from a calendar.,F
+63,The user shall be able to edit the cost and deterioration models through the GUI and immediately see the impact on model recommendations. ,F
+63,The system shall provide reporting mechanism for viewing archived data. ,F
+58,Processing flags – a table of flags needed to identify various internal conditions relating to error response and processing state.,F
+8,Only registered customers can purchase streaming movies.,SE
+8,All credit card information will be encrypted in the database.,SE
+90,Log level must not be OFF (in the Settings panel) in order to work this function,F
+14,A primary database will be used to store cached data for active users.,O
+3,A staff member shall have the ability to manage the progress of a part time student  which includes modifying their sequence of classes and timeline of classes.,F
+84,Integrate the full-text search (search-tools project) module with the WARC browser to provide users with WARC indexing/searching capabilities.,F
+70,"The asset condition information browser shall allow a user to view asset condition-related information using a web browser capable of supporting HTML 4.01, JavaScript (ECMA-262 edition 3), and XML 1.0. ",F
+11,The product shall ensure that only supervisors can enter a caller\92s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.,SE
+68,"When the plain text message appears on the DMI, the driver shall be alerted. ",F
+63,Configuration option validation shall be supported by a built-in diagnostic report. ,F
+63,The user shall be able to exchange data in XML format. The emerging TransXML schema specification17 shall be utilized once established and accepted. ,F
+4,The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.,F
+71,"The Development and Maintenance Environment shall be available to at least 25 developers 85% of the time during normal business hours over any consecutive twelve month period. Normal business hours are 8am to 4pm Eastern Time, Monday through Friday. ",A
+8,The system shall reveal private information only in compliance with the organization\92s information policy.,SE
+62,"Systems supporting OM must be able to aggregate data. Examples of aggregated data to be supported are: number of cases, number of contacts per case, and number of vaccinations and/or treatments administered. ",F
+73,Clear documentation that lends to the defensibility of system for when permits are denied or modified. ,US
+67,It shall provide specific guidelines to a user for using the E-Store system and within the system. ,MN
+14,Users shall be able to reach the \91add\92  \91drop\92  and \91trade player\92 pages with one click from the team owner\92s page.,US
+62,"Systems supporting OM should be capable of using configurable, domain-specific vocabulary.",F
+57,The Application menu shall contain items related to manipulating entire applications.,F
+66,"No extra hardware interfaces are needed. The system will use the standard hardware and data communications resources provided by the ARS OCIO at the ARS George Washington Carver Center in Beltsville, MD. This includes, but is not limited to, the general Ethernet network/T1 connection at the server/hosting site, network servers, and network management tools. This system will include a warning message when a low transmission speed is detected, and a non-graphical interface option will be available.  ",L
+86,One username/password must be provided for the owner of each vessel ,SE
+63,The user shall be able to exchange bridge inspection data in PDI format. ,F
+64,The system supports defining new games without modifying the source code,F
+71,"The System shall be capable of changing system status to reflect the condition of NPOESS (i.e., Degraded Operations, Restricted Access). ",F
+54,"The MultiMahjongServer will automate the game initialisation functions, such as: randomising tile order, randomising seating position and storing the ""Game Info"" database.",F
+77,Ability for the user to send/receive e-mails within workflow applications.,F
+73,"Generate monthly reports for Board Packet that shows the difference in quantities permitted every month for specified geographic areas (i.e., counties, MIA, etc.). ",F
+89,The input is generated automatically by the Mashbot system using settings configurable by the System Administrator.,MN
+85,The QA/QC Team must perform regression testing against all scheduled builds.,F
+82,A Member State MUST formally define an authority that is able to provide a proof of conformance to certain criteria if the Member State wishes to implement Article 52 or if Article 52 is already implemented. ,L
+68,"When the traction unit has come to a standstill, the driver shall be able to release the emergency brake. ",F
+66,"STEWARDS will have reasonable controls consistent with ARS OCIO practices, in compliance with agency, Dept and Govt regulations. STEWARDS security requirements will have four primary components. They are authentication, confidentiality, integrity, and availability.",SE
+12,The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.,SE
+10,For each shot  the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.,F
+62,Each new case must be able to link an assigned Entity ID to an Event ID within the scope of the investigation. ,F
+82,The National Service Providers SHOULD establish validation points in order to approve an economic operator in accordance with Article 52 (1) of Directive 2004/18/EC. ,L
+58,"Lag Frames – The BE shall receive LTA or Speed Dump Lag Frames from the Correlator. For a detailed description of the two dump formats see Reference 8, pages 69 to 71. This will most likely be in the form of one or more frames per UDP/IP packet ",F
+82,Legitimacy of standard representation of common criteria of qualitative selection and exclusion MUST be ensured. ,L
+72,"The system should display grade information such as the grade for each assignment, averages, and overall grade to the actor to whom the grades belong. No other actor should be able to view another’s grades except an actor in the role of course administrator for the course to which the grades belong. ",F
+89,"A schedule is a mapping of times to publishing actions. It may contain any actions a publisher can perform, and these actions are performed at the associated time.",F
+75,Malicious requests are identified and acted upon. ,F
+52,Data transmission format. Data is transmitted between Gemini and home Institutes using a FITS format and contains all header information provided with the data.,PO
+50,"The inventory management will allow for administrators to update the categories, the products placed in categories, and the specific product details. ",F
+82,The identity and access management procedures for creating a VCD account SHOULD be harmonized with the registration procedure of the overall infrastructure provided by WP 8.,L
+56,SwRI shall provide APAF system maintenance.,O
+73,Report the Reservation from use amounts allocated to certain participants.,F
+70,The DUAP System shall cache (both raw and derived) road weather data. ,F
+77,Ability for the user to use wireless service with GIS.,F
+76,"FTP management software on the server setup with quota space, user authentication, and appropriate user rights.",F
+5,The current repair facility ratings shall be displayed to the user.,F
+63,The system shall be capable of supporting Windows Authentication mechanism for database access.,F
+74,All Black Start Generating Units must satisfy technical requirements specified by the CAISO. ,O
+72,The system must allow actors to organize their voice clips into a portfolio. ,F
+79,Sales processing - The system must be available during normal Construction Junction operating hours. ,A
+40,The system should warn ECA users about the malfunction of the system.,FT
+49,The quality of textual content with respect to spelling and grammar should be sufficient so as not to impede readability.,US
+61,If only two children are enrolled a parent shall be billed $157.50 at the end of each month.,F
+62,Systems supporting OM should track the changes made to the status of case records as a result of changes in the case definition.,F
+68,ETCS shall collect all relevant information concerning train and line speed. ,F
+63,"The application level security controls will be consistent with current Pontis 4.x procedures, except more comprehensive; no exceptional controls are required. A specific requirement addresses field-level data security. ",SE
+68,The ETCS trainborne equipment shall be able to determine the location of the entire train. ,F
+50,The system should be able to run test shipping orders.,F
+62,Chain of custody information for all specimens/samples should be captured. ,F
+7,Formula substitutionary ingredients shall be kept in persisted order,F
+63,"There are selected licensees, typically smaller agencies, who may have much lower powered computer resources, and their performance must be acceptable as well, although not necessarily comparable to larger installations. ",PE
+82,"Centralized or decentralized infrastructure? Will there be one centralized system on a European level hosting and providing the mapping or a decentralized system consisting of interconnected national systems? In the latter case, one could define that each national system only hosts the national mapping or that each one hosts all the different national mappings which would make a synchronization of the different systems necessary. A decision to deploy either a centralised or a decentralized infrastructure that provides the mapping service MUST be made. ",L
+10,At the start of each turn  the product shall notify each player of his or her status.,F
+2,The product shall be easy for a realtor to learn.,US
+84,"A (default) external tool (e.g., ClamAV) will be used to scan files before conversion (pre-conversion step).",F
+89,The system may contain any number of user accounts. ,F
+6,The product shall display a map of the company building showing conference room locations.,F
+88,"Sensor (temperature, humidity, contact sensor, power state) shall have a minimum data acquisition rate of 10 Hz. ",PE
+62,"Case data about the entity should include: a case identifier (i.e., Case ID) that is unique within the jurisdiction being reported, the suspected agent, case diagnosis, health status (e.g., no symptoms, acute illness), case status (e.g., confirmed, probable, suspect), investigation dates, clinical history, symptom onset date and time, epidemiological links to other cases, and priority (e.g., high, medium, low). ",F
+86,The ELSS must only permit deletion messages to be generated and sent for reports sent during a current trip up to the End of Fishing report for that voyage. ,LF
+68,Partial Supervision shall be indicated on the DMI. ,F
+88,"Each DigitalHome shall contain a master control device (the DH Gateway Device) that connects to the home’s broadband Internet connection, and uses wireless communication to send and receive communication between the DigitalHome system and the home devices and systems. ",F
+1,The system shall have a MDI form that allows for the viewing of the graph and the data table.,F
+82,The VCD package MUST provide a functionality to add economic operator data to the VCD package and VCD system (e.g. log file) during the compilation process. ,F
+68,A train shall be supervised to its static and dynamic train speed profiles.,F
+71,The System shall be capable of compressing animated images of Data Products with the MPEG algorithm. ,F
+2,The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.,PE
+84,"It shall be possible to perform a “dry-run migration”. That is, a blank conversion to generate useful reports (performance issues, bad ARCs, time estimation ...) without writing real WARC data (i.e. simulating only). Dry run is defined entirely by the configuration.",F
+82,The transportation system MUST ensure that the VCD package is being delivered to the contracting authority. ,L
+63,The user shall be able to create and edit work recommendations. The system shall be capable of estimating quantity for bridge type work recommendations. ,F
+60,"The system must provide solutions/rules regarding data encoding problems such as supporting different character sets, name truncation rules, name matching in case of misspelling.",SC
+80,"Ability to control inventory of uncataloged material, such as paperback books and children s board books. Support for quick distribution; minimal branch labor; and ability to identify how the material is being used. Ability to count transactions and include in circulation statistics and reports.",SC
+6,The product shall send a meeting confirmation to the meeting organizer.,F
+67,The product shall be based on web and has to be run from a web server.,PE
+61,The system shall have a Web based interface that works with Internet Explorer and Netscape Navigator.,F
+65,"Therefore, some residue MUST be left on the data store to indicate that a portion of data has been archived. For example, assume all information relating to a “Person” Entity named John is archived to a CD-ROM. When the user subsequently looks for John, the Framework SHOULD NOT declare that such an Entity was not found. Rather, it SHOULD inform the user that the Entity has been archived (and OPTIONALLY, if he wishes to proceed, to remount the relevant storage device). ",F
+72,The system should display grade information to the appropriate actor. ,F
+86,"It is recognised that communications methods, other than email, are available for data transmission. If an alternative is proposed, this should be advised to the Validation Authority and if feasible and practicable the UK Fisheries Administrations will endeavour to extend their ERS system to accommodate alternative methods.",LF
+80,"The software developer shall provide a thorough high-level description of major processes, including bibliographic record import and export, validation of bibliographic records against internal and external authority sources, and standard reports. ",SC
+75,Malicious requests are identified and acted upon. ,F
+79,The following copyright notice must be displayed in all user interfaces: © 2009 - Construction Junction,L
+90,The user can mix only 2 documents at a time (not more or less).,F
+58,Internal Data – The BE shall guarantee safe delivery of all internal messages. ,F
+57,"When a user selects the Application/Save menu item, the HATS-GUI shall save all application configuration information to nonvolatile storage.",F
+8,All aspects of the website shall be accessed by a web browser over the Internet.,O
+63,The user shall be able to edit inspection and structure notes.,F
+50,The system shall have an availability of 99.99%.,A
+73,Ability to track water use over time and negotiate reasonable new water use based on water use pumpage trends.,F
+67,The system shall allow user to create profile and set his credential.,F
+58,The administrator shall have the ability to block all access to the system for all users or selectively by user. (All blocked users with active sessions shall automatically be logged off.),SE
+13,The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user\92s computer.,SE
+45,The system shall allow the mediator to solve a date conflict.,F
+4,The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.,F
+76,Help Feature: Feature is linked with the help desk staff of the particular institution; anyone who has difficulty in logging on can choose this feature to contact the system administrator.,US
+8,Website shall allow the Izogn administrator to approve a review posted by a customer.,F
+49,"Making navigation self-descriptive: Navigation should be designed to help users understand where they are, where they have been and where they can go next. General guidance on achieving self-descriptiveness is given in ISO 9241-110.",US
+62,Systems supporting OM should provide a manual or automatic means of updating the status of case records as the case definition changes. ,F
+67,"There are many types of interfaces as such supported by the E-Store software system namely; User Interface, Software Interface and Hardware Interface.",MN
+60,The system must be easy to learn and does not obstruct the thematic understanding of the users.,US
+82,Any standard representation of the different types of data MUST be agreed upon the pilot partners.,L
+62,"Systems supporting OM must have the capability to capture demographic data about persons involved in an OM investigation, including: Subject ID, name, address, date of birth, gender, phone number, race, ethnicity, and country of citizenship. ",F
+76,"The professor’s username should allow them access to the class exam folder and have Read, Write, and Delete privileges. ",F
+68,Route unsuitability shall be indicated on the DMI. ,F
+8,Movies shall be encoded and streamed via Windows Media Player 9.0.,O
+20,All Web pages generated by the system shall be fully downloadable in no more than 10 seconds over a 40KBps modem connection.,PE
+67,The system shall enable user to navigate between the search results.,F
+8,The website shall make its user aware of its information practices before collection data from them via a Privacy Policy  accessible on all pages of the website.,SE
+90,The user can split only once document at a time. ,F
+68,"On lines fitted with RBC, the ETCS trainborne equipment shall be able to transmit the location of the entire train to the RBC. ",F
+67,The system shall notify the user about any changes made to the order.,F
+5,The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch.,SC
+63,"The system developer shall consider supporting existing custom forms and reports developed in PowerBuilder 9. It shall decide on a development tool for users so that they can continue to customize Pontis and extend its capability. For example, custom forms and reports created with PowerBuilder 9 may be migrated to a .NET application by using the Sybase DataWindow .NET technology which is available in PowerBuilder 10. ",US
+19,All the functions of the system must be available to the user every time the system is turned on.,A
+70,The DUAP Input Services shall be able to collect road condition data from Traffic Management Systems (TMS) using the TMS interface. ,F
+82,A VCD system MUST provide IT-interfaces to issuing bodies which provide evidences in machine interpretable format. ,F
+63,The user shall be able to create a new structure by copying all data of an existing structure. ,F
+76,"Enables the user to select the pertinent class, each class is highlighted for ease of use.",US
+68,If supervised by an RBC it shall be possible to command an emergency stop to all trains in a particular area or to a specific train,F
+71,The System shall provide the capability to notify customers upon the NPOESS Ground System entering and leaving a Degraded Operations Mode. ,F
+71,The NDE System can be accessed only with the authorization of the Government. ,SE
+85,"The user must have the flexibility to click any tab to commence the adding process, although the xxx Tab shall display as the default tab.",F
+49,"Navigation links should be clearly distinguishable from controls activating some action. Typical action types in user interfaces include manipulating application data, performing searches, communication actions, such as opening a new e-mail window or starting a chat function, and Hpresentation-related actions, such as sorting a list of search results.",US
+63,"The user shall be able assign Pontis-generated work recommendations, inspector work candidates, and user-specified work items to a project, or remove work items from a project. ",F
+61,"The Child s record shall contain the following information: Name, Date of birth, Gender, Classroom name, Special needs, Photo, Teacher s comments, Immunization dates.",F
+62,Systems supporting OM should have the ability to record the case definition for a health event. ,F
+57,The View/Copy Text menu item shall provide an interface for copying selected text into an operating system buffer.,F
+57,"When deleting an application directory, if the application directory contains a subdirectory, the system shall confirm the deletion of the subdirectory with the user before continuing. If the user does not confirm the deletion of the subdirectory, the application director shall not be deleted.",F
+77,Ability for the user to create reminders and tasks. ,F
+37,High level of performance requires high speed network and high level of connectivity.,PE
+46,The system shall allow user to confirm the purchase.,F
+75,"The interaction protocol between Web Server-SR, SR-mediator is defined. ",F
+74,"Testing records shall include the dates of the tests, the duration of the tests, and an indication of whether the tests met the requirements of this Black Start Testing section. ",O
+82,The mapping rules require formal approval and adoption by the National Bodies governing the public procurement activity; ,L
+71,"During the NPOESS-C1 mission, the System shall be capable of supporting product volumes of 8 Terabytes per day of input and 16 Terrabytes per day of output. ",F
+68,Unfitted operation shall be possible if ordered by trackside ,F
+63,"The EIM&DSS design will be informed by World Wide Web Consortium (W3C) design guidelines26 and conform to common industry practices for user interaction behavior and user interface design. For the thin-client portion of Pontis, the AASHTO standards for thin-client web-based applications software will be followed. ",LF
+57,"The HATS-GUI shall allow a user to navigate through the display of an SDT with 10,000 nodes so that scrolling a screen width with any portion of the SDT displayed takes less than 3 seconds.",PE
+6,The response shall be fast enough to avoid interrupting the user\92s flow of thought.  90% of tasks shall complete within 5 seconds.  98% of tasks shall complete within 8 seconds.,PE
+5,The user shall enter new ratings based on the audit report,F
+73,"Must be able to track trends in land use and water use changes. These include several means by which a proposed new withdrawal that impacts an MFL waterbody can achieve a ""Net Benefit,"" including the provisions for relocated, lapsed, and water withdrawal credits",F
+71,The System shall be capable of protecting the integrity of NDE data in the event of a hardware malfunction such as a disk crash. ,SE
+58,"Input – The BE System shall be capable of accepting an aggregate data input stream from the Correlator of a minimum of 1.6 Gbytes/sec. This must be done simultaneously with the output stream, but not necessarily over the same interconnects. This is an initial deployment specification and will be increased over time. ",PE
+82,A national authority MUST support critical processes in order to increase the trust between the entities involved.,L
+51,The Application should be installed in any Microsoft or Unix platform.,PO
+68,"Transitions which occur while the train is stationary, shall be initiated automatically or manually as appropriate.",F
+71,The System shall provide the capability to receive an electronic delivery acknowledgement message from CLASS.,F
+80,"The system provides pre-defined reports for consumption by library boards or other consumers. There will be reports providing basic statistics like those required by the Georgia Annual Report and Application for State Aid and activity reports that indicate traffic and volume of use that display statistics on check-outs, check-ins, holds placed, and holds filled. It should be possible cross-tabulated per terminal, per branch, per library system, per hour, per patron age range, per patron type, and per patron location.",SC
+62,"Systems designed to support OM must offer configuration flexibility so that new data fields, entities, entity types and relationship types may be added to capture information unique to each particular health event.",F
+90,"Furthermore, the system can check for updates whenever is requested by the user, or automatically when opening the application. In this way PDFsam will be always up-to-date with all new supported features and bug fixes. ",PE
+68,Fixed text messages shall be provided in the language selected by the driver.,F
+5,The product shall comply with the estimatics laws relating to recycled parts usage.,L
+82,The VCD viewing system MUST display economic operator data contained in the VCD package ,F
+49,"The System must maintain the audit trail for as long as required, which will be at least for the life of the case to which it refers.",F
+62,"Systems supporting OM must be able to create and send messages for laboratory test requests. This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin. ",F
+67,The system shall provide a digital image for each product in the product catalog.,US
+49,Text pages containing large proportions of links should be formatted so that the presence of links does not impede the readability of the text.,US
+46,The system shall display the online help upon request.,F
+59,Hardware addressing – The CMIB shall be able to read back the contents of all writeable hardware control registers where meaningful. It is desired that the state of the correlator hardware be available through interrogation across the CMIB bus for monitoring and fault tolerance.,PO
+8,viewing a movie details the website will display the movies description actor and director entered in by the administrator.,F
+76,"FTP management software on the server setup with quota space, user authentication, and appropriate user rights.",F
+67,The system shall allow user to enter the order information for tracking.,F
+70,The DUAP System shall be able to derive roadway surface conditions from probe vehicle data. ,F
+57,The Application/Save menu item shall provide an interface for saving application configuration information.,F
+76,"The students overall login should allow them access to the appropriate folder, and their account should only have Write privileges.  ",F
+67,The system shall not leave any cookies on the customer’s computer containing any of the user’s confidential information.,SE
+14,The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.,LF
+8,Website shall allow customers to add their own movie review for a selected movie.,F
+57,The user shall not be required to log in or authenticate his/her identity when using the system.,SE
+76,The Web-Conferencing features’ performance depends on the availability of the bandwidth. The minimum of a broadband connection is recommended to fully utilize Web-Conferencing feature.,US
+4,The Disputes application shall interface with the Cardmember Information Database. The Cardmember Information Database provides detailed information with regard to a cardmember. All cardmember detail information must be obtained from the Cardmember Information Database.,O
+80,"If web-browser based, Management Processes shall be accessible through Microsoft Internet Explorer (v.6.0 and later) and Mozilla Firefox (v.2.0 and later). ",SC
+52,"For focusing and related activities, maximum acceptable detector readout time is about 0.1 sec, though only a portion of the detector may be read during that time.",PO
+8,Movies can only be streamed if the customer has purchased a movie  and is within the 2-day time period to stream the movie.,F
+84,Validation shall use Heritrix’s arcreader to double check that the original ARC record was correctly converted to WARC. ,F
+70,The DUAP Presentation Services shall require users to confirm their identity. ,F
+46,The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.,A
+52,"In addition, there is the need for transmission of images matching the original resolution. This high-quality transmission must require less than 20 sec, and can only be assisted with loss-less compression.",PO
+82,The national VCD service provider that hosts the system must have the status of a trusted entity. ,L
+82,A functionality to display context specific data SHOULD/MUST be included within any VCD.,F
+67,The system shall allow user to update the configuration to resolve conflict in the current configuration.,F
+62,"Systems supporting OM should be able to produce contact work lists for each investigator to use, and should allow sorting by priority or geography. ",F
+85,A user with admin privileges shall be able to Add/Create a new user and associate the user with specified role(s) in the system. ,F
+70,"The asset condition information browser shall allow a user to query asset condition-related information using a web browser capable of supporting HTML 4.01, JavaScript (ECMA-262 edition 3), and XML 1.0.",F
+57,"When a user selects the File/Save As menu item, the HATS-GUI shall prompt the user to enter a new name. A new file shall be created in the currently open application with the newly entered file name. The contents of the selected file shall be written into the new file, and the new file shall become the currently selected file.",F
+60,"The system must function reliably, with few or no interruptions in its first operational year and fewer still thereafter.",SC
+63,"The user shall be able to create new structure(s) by importing from a supported file type. The supported file types are to be determined, but will include at least PDI, NBI, and XML. ",F
+12,The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.,MN
+8,The website will use standard Internet conventions when interacting with the user.,US
+70,The DUAP Persistent Data Services shall be able to archive cached (raw and derived) road condition data. ,F
+63,The user shall be able to select the structural elements to be included in the simulation. ,F
+62,"If the specimen/sample collection record does not exist, the laboratory result must be linked to the subject by the Subject ID. ",F
+63,The administrator shall be able to add custom project lists. ,F
+80,Management Processes shall operate on a Linux or Solaris server.,SC
+72,Users must have easy access to help while interacting with the system. Adequate user documentation should be provided to minimize the number of calls to the Help Desk about problems with the system. Modifications should be reported via the main page to inform actors of unexpected changes. This electronic documentation should be supplemented with phone and on-site support provided by the Office of Information Services. ,F
+62,"Systems supporting OM should have the ability to produce lists of action items (e.g., to do lists). ",F
+71,"The System shall be capable of reporting on all ingested, generated, and distributed data according to the (Federal Geographic Data Committee (FGDC) Content Standard for Digital Geospatial Metadata (CSDGM), Vers. 2 (FGDC-STD-001-1998 ) and the CSDGM Remote Sensing Extensions (FGDC-STD-012-2002). ",F
+72,"Actors should be able to search for pages at the course level, since most actors will be searching for material in a given course. The search feature should be present in two ways.  ",F
+76,Users must have their computers equipped with microphone and web camera.,F
+64,The system functions on a computer that has a screen for output and keyboard or mouse or both for input. ,O
