@@ -1,16 +1,24 @@
 from openai import OpenAI
 import re
 import torch
+import torch.nn.functional as F
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
 class RequirementClassifierModel:
-    def __init__(self, base_url="http://localhost:8080/v1", model_name="qwen2-1.5b"):
+    def __init__(self, base_url="http://localhost:8080/v1", model_name="Qwen/Qwen2-1.5B"):
         self.client = OpenAI(
             base_url=base_url,
             api_key="blank",
         )
         self.model_name = model_name
+
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        print("Loading local model for logits...")
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.model = AutoModelForCausalLM.from_pretrained(model_name)
+        self.model.to(self.device)
+        self.model.eval()
 
 
 
@@ -80,7 +88,61 @@ Requirement: '{requirement_text}'
 
 
 
-    def classify_logits(self, requirement_text: str, labels: list[str]) -> dict:
+    def classify_logits(self, requirement_text: str, labels: list[str]) -> str:
+        if not labels:
+            raise ValueError("At least one classification label is required.")
+
+        prompt = f"""Classify the software requirement below.
+Requirement: "{requirement_text}"
+Type:"""
+
+        input_ids = self.tokenizer.encode(prompt, return_tensors="pt").to(self.device)
+        prompt_length = input_ids.shape[1]
+
+        self.model.eval()
+        with torch.inference_mode():
+            label_scores = []
+
+            for label in labels:
+                # Score the complete label, including labels that tokenize into
+                # multiple pieces, and normalize so label length is not favored.
+                label_ids = self.tokenizer.encode(
+                    " " + label, add_special_tokens=False
+                )
+                if not label_ids:
+                    raise ValueError(f"Label cannot be tokenized: {label!r}")
+
+                label_tensor = torch.tensor([label_ids], device=self.device)
+                full_input_ids = torch.cat([input_ids, label_tensor], dim=1)
+                logits = self.model(full_input_ids).logits
+
+                total_log_prob = 0.0
+                for index, token_id in enumerate(label_ids):
+                    token_logits = logits[0, prompt_length + index - 1, :]
+                    total_log_prob += F.log_softmax(token_logits, dim=0)[
+                        token_id
+                    ].item()
+
+                label_scores.append(total_log_prob / len(label_ids))
+
+            scores_tensor = torch.tensor(label_scores, device=self.device)
+            probabilities = F.softmax(scores_tensor, dim=0)
+            max_prob, best_index = torch.max(probabilities, dim=0)
+
+            best_label = labels[best_index.item()]
+            msp_confidence = max_prob.item()
+            return best_label, msp_confidence
+
+
+                    
+
+                        
+
+        
+
+
+
+
         
 
     
@@ -89,4 +151,3 @@ Requirement: '{requirement_text}'
             
 
           
-
