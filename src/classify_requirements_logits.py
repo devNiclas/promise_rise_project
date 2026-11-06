@@ -1,4 +1,5 @@
 import pandas as pd
+import json
 from tqdm import tqdm
 from model import RequirementClassifierModel
 
@@ -57,7 +58,7 @@ for index, row in tqdm(test_df.iterrows(), total=len(test_df), desc="Classifying
 
 
 
-    predicted_label, msp_confidence = classifier.classify_logits(requirement_text, LABELS)
+    predicted_label, msp_confidence, all_probabilities = classifier.classify_logits(requirement_text, LABELS)
     predicted_label_mapped = label_mapping.get(predicted_label, predicted_label)
 
     results.append({
@@ -66,6 +67,7 @@ for index, row in tqdm(test_df.iterrows(), total=len(test_df), desc="Classifying
         "PredictedLabel": predicted_label_mapped,
         "PredictedLabelText": predicted_label,
         "Confidence": msp_confidence,
+        "AllProbabilities": json.dumps(all_probabilities)
     })
 
 

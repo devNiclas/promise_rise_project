@@ -131,7 +131,10 @@ Type:"""
 
             best_label = labels[best_index.item()]
             msp_confidence = max_prob.item()
-            return best_label, msp_confidence
+
+            prob_list = probabilities.tolist()
+            all_probabilities = {label: prob for label, prob in zip(labels, prob_list)}
+            return best_label, msp_confidence, all_probabilities
 
 
                     
